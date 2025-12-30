@@ -57,9 +57,46 @@
     combos {
         compatible = "zmk,combos";
 
-        caps_word {
+        CAPZ {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <12 13>;
+        };
+
+        CAPZ_WORD {
             bindings = <&caps_word>;
             key-positions = <16 19>;
+        };
+
+        to_WIN {
+            bindings = <&to 3>;
+            key-positions = <39 38>;
+            layers = <0 8>;
+        };
+
+        to_MAC {
+            bindings = <&to 0>;
+            key-positions = <38 39>;
+            layers = <3 8>;
+        };
+
+        left_hand_right_click {
+            bindings = <&mkp RCLK>;
+            key-positions = <27 26>;
+        };
+
+        left_hand_middle_click {
+            bindings = <&mkp MCLK>;
+            key-positions = <27 26 28>;
+        };
+
+        right_hand_right_click {
+            bindings = <&mkp RCLK>;
+            key-positions = <32 33>;
+        };
+
+        right_hand_middle_click {
+            bindings = <&mkp MCLK>;
+            key-positions = <31 32 33>;
         };
     };
 
