@@ -104,7 +104,7 @@
 
         toGAME {
             bindings = <&to 6>;
-            key-positions = <4 5>;
+            key-positions = <28 29>;
             layers = <3 0>;
         };
     };
