@@ -10,7 +10,8 @@
 #define WIN     3
 #define WINUM   4
 #define WINAV   5
-#define BLTOPT  6
+#define GAME    6
+#define BLTOPT  7
 
 / {
     conditional_layers {
