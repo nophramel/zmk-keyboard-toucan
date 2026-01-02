@@ -8,9 +8,9 @@
 #define MACNUM  1
 #define MACNAV  2
 #define WIN     3
-#define WINUM   4
-#define WINAV   5
-#define GAME    6
+#define GAME    4
+#define WINUM   5
+#define WINAV   6
 #define BLTOPT  7
 
 / {
