@@ -107,6 +107,16 @@
             bindings = <&to 4>;
             key-positions = <28 29>;
         };
+
+        left_hand_left_click {
+            bindings = <&mkp LCLK>;
+            key-positions = <27 28>;
+        };
+
+        right_hand_left_click {
+            bindings = <&mkp LCLK>;
+            key-positions = <31 32>;
+        };
     };
 
     keymap {
