@@ -73,13 +73,13 @@
 
         to_WIN {
             bindings = <&to 3>;
-            key-positions = <4 5>;
+            key-positions = <25 24>;
             layers = <0 4>;
         };
 
         to_MAC {
             bindings = <&to 0>;
-            key-positions = <4 5>;
+            key-positions = <24 25>;
             layers = <3 4>;
         };
 
@@ -116,6 +116,11 @@
         right_hand_left_click {
             bindings = <&mkp LCLK>;
             key-positions = <31 32>;
+        };
+
+        SoftOff {
+            bindings = <&soft_off>;
+            key-positions = <34 35>;
         };
     };
 
